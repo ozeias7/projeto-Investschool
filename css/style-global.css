@@ -35,11 +35,8 @@ body {
     font-family: var(--fonte-padrao);
 }
 
-header > img {
-    /* background-image: -moz-element('imagens/logo6'); */
-    /* background-repeat: no-repeat;
-    background-position-x: 690px; 
-     */
+  img.logo  { 
+    background-position: center;  
 }
 
 
@@ -49,7 +46,8 @@ header > img {
     overflow: hidden;
     background-color: var(--cor9);
     padding: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
+    margin: 1px;
     border-radius: 1px 0px;
   }
   
@@ -81,17 +79,16 @@ header > img {
     margin: 0;
   }
  
- 
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  .navbar a:hover {
     color: var(--cor8);
     padding: 10px;
     border-radius: 0px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: 0.2s;
+    transition-duration: 0.5s;
 }
 
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  .navbar a:hover ,.dropdown:hover{
     background-color:var(--cor6);
   } 
   
@@ -134,17 +131,34 @@ main {
     margin: auto;
     padding: 10px;
     background-color: var(--cor3);
-    background-position: top;
-    
+    background-position: top;  
 }
+
 
 
 footer {
-    background-color:var(--cor7);
-    color: var(--cor6);
-    padding: 10px;
-    margin: 10px;
+    background-color:var(--cor9);
+    color: var(--cor8);
+    padding:100px;
+    margin: 1px;
     border-radius: 2px 0px;
-    text-align: center; 
-    background-position: top;
+    text-align: left; 
+    font-size: 15px;
+    font-weight: bold;   
+   
 }
+.section-contato {
+  font-size: 30px;
+  position: relative;
+  margin: 10px;
+}
+
+.menu-contato {
+  font-size: larger;
+}
+
+.menu-navegacao {
+  font-size: medium;
+  position: right;
+}
+
