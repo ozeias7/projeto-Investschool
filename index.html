@@ -5,140 +5,190 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Investschool</title>
-
     <link rel="stylesheet" href="css/style-global.css">
-
 </head>
 <body>
-  
    <header>
-        <img class="logo" src="imagens/logo6.png"> 
-    </header>
-       
-
-   <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="investidores.html">Investidores</a>
-    <div class="dropdown">
-      <button class="dropbtn">Livros 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">Pai Rico e Pai Pobre</a>
-        <a href="#">Quem pensa Enrisse</a>
-        <a href="#">Mente Milionaria</a>
+      <div class="logo-tipo">
+        <img class="logo" src="imagens/logo6.png" width="220" height="150"> 
       </div>
-    </div> 
-    <a href="contato.html">Contato</a>
-  </div>
-    
+         <div class="navbar">
+            <nav>
+                <a href="index.html">Home</a>
+                    <a href="investidores.html">Investidores</a>
+                     <div class="dropdown">
+                        <button class="dropbtn">Livros 
+                          <!-- <i class="fa fa-caret-down"></i> -->
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Pai Rico e Pai Pobre</a>
+                            <a href="#">Quem pensa Enrisse</a>
+                            <a href="#">Mente Milionaria</a>
+                        </div>
+                  </div> 
+                  <a href="contato.html">Contato</a>
+            </nav> 
+        </div>
+  </header>
 
-    <main>
-        <article>
+ <section  class="slider" id="sliderr">
+     <div class="carrosel">
+           <input type="radio" name="radio-btn" id="radio1">
+           <input type="radio" name="radio-btn" id="radio2">
+           <input type="radio" name="radio-btn" id="radio3">
+           <input type="radio" name="radio-btn" id="radio4">
 
-            <h1>
-                História do Mascote do Android
-            </h1>
-        <h1>
-            asdasdsdsd
-            asdsdsadsadasdasd
-        </h1>
+                <div class="slide first">
+                    <img src="imagens/imagem1.jpg" alt="imagem1">
+                </div>
+                <div class="slide">
+                    <img src="imagens/imagem2.jpg" alt="imagem2">
+                </div>
+                <div class="slide">
+                    <img src="imagens/imagem3.png" alt="imagem3">
+                </div>
+                <div class="slide">
+                    <img src="imagens/imagem4.png" alt="imagem4"> 
+                </div>
 
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+     </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+ </section>
 
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
+ <section class="about" id="about">
+    <div class="content">
+         <div class="title-wrapper-about">
+             <h3>Negócios</h3>
+             <p>____________________________________________________________________________________________________________________</p>
+         </div>
+         <div class="about-content">
+                <div class="left">
+                    <img src="imagens/Warren-2.jpg" alt="about">
+                </div>      
+         <div class="right">
+             <h3>Warren Buffet, Compra empresa de Energia</h3>
+             <p>Lorem ipsum dolor sit amet 
+                 consectetur adipisicing elit.
+                  Ratione optio harum beatae? 
+                  Necessitatibus temporibus deleniti, 
+                  magni aut, consequatur, maxime enim expedita 
+                  dignissimos aperiam voluptas error ducimus! 
+                  Architecto provident repellendus sed. Neque, 
+                  soluta harum quis repellendus, sed distinctio 
+                  ipsa ducimus ipsam reiciendis praesentium, 
+                  assumenda debitis. Possimus inventore 
+                  eligendi quae dolores saepe deleniti 
+                  accusantium quas culpa maxime iste 
+                  amet sit fugit qui eaque, reiciendis rem, 
+                  delectus totam voluptatum excepturi, 
+                  voluptas doloribus! Eaque repudiandae suscipit 
+                  provident tempora quaerat unde facere sequi sunt 
+                  nam similique rem cupiditate a voluptatum eos dolor 
+                  ad minima, reiciendis maxime, laboriosam placeat 
+                  quibusdam dolore explicabo? Dolor officiis quis placeat.
+                </p>
+         </div>
+    </div>
+ </div>
+</section>
 
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
+<section class="features" id="features">
+    <div class="content">
+        <div class="title-wrapper-feature">
+            <h3>Nossos Serviços </h3>
+            <p>_____________________________________________________________________________________________________________________</p>
+        </div>
+       <div class="feature-card-block">
+           <div class="feature-card-item">
+              <img src="imagens/analista-de-negocios.png" alt="Feature">
+              <div class="feature-text-content">
+                   <h3>Consultor de Investimentos</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+            <div class="feature-card-item">
+                <img src="imagens/carteira-acoes.png" alt="Feature">
+                <div class="feature-text-content">
+                     <h3>Carteira de Ações</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+              <div class="feature-card-item">
+                <img src="imagens/renda-fixa.png" alt="Feature">
+                <div class="feature-text-content">
+                     <h3>Carteira de Renda Fixa</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+              </div>
+              <div class="feature-card-item">
+                <img src="imagens/Carteira FI.png" alt="Feature">
+                <div class="feature-text-content">
+                     <h3>Carteira FI</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+              </div> 
+              <div class="feature-card-item">
+                <img src="imagens/CarteiraMulti-Mercado.png" alt="Feature">
+                <div class="feature-text-content">
+                     <h3>Carteira Multi-Mercado</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+              </div> 
+              <div class="feature-card-item">
+                <img src="imagens/Açoes-Americanas.png" alt="Feature">
+                <div class="feature-text-content">
+                     <h3>Açoes Americanas</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+              </div> 
+       </div> 
+    </div>
+</section>
 
 
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-
-        <h2>
-            sjdhjksahdjahskjd
-        </h2>
-    </article>
-  </main>
+ <script src="script.js"></script>
 
     <footer>
-
-        <div class="section-contato">
-            CONTATOS
+        <div class="main">
+            <div class="content footer-links">
+                <div class="footer-company">
+                    <h3>Nossas Empresas</h3>
+                    <h5>Investschool</h5>
+                    <h5>Rico</h5>
+                </div>
+                <div class="footer-rental">
+                      <h3>Serviços</h3>
+                      <h5>Consultoria de Investimentos</h5>
+                      <h5>Carteira Dividendos</h5>
+                      <h5>Carteira Renda Fixa</h5>
+                </div>
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <img src="imagens/facebook.png" alt="Facebook">
+                        <img src="imagens/instagram.png" alt="instagram">
+                    </div>
+                </div>
+               <div class="footer-contact">
+                    <h3>Contatos</h3>
+                    <h5>+55 11 98711-1236</h5>
+                    <h5>investschool@grupo.com.br</h5>
+                    <h5>Nome da rua, 123, EUA</h5>
+               </div>
+            </div>
          </div>
-
-            <ul class="menu-contato">
-                    <li>SAC-BARUERI 11-987111236</li>
-                    <li>SAC-OSASCO  11-987111236</li>
-                    <li>SAC-ITAPEVI 11-987111236</li>
-                    <li>SAC-SANTANDA DE PARNAIBA 11-987111236</li>
-                    <li>SAC-JANDIRA 11-987111236</li>
-            </ul>
-
-            <ul class="menu-navegacao">
-                <li>Home</li>
-                <li>Investidores</li>
-                <li>Livros</li>
-                <li>Contato</li>
-               
-           </ul>
-      
+        <div class="last">Investschool 2020 - Investimentos</div>
     </footer>
-
-   
 </body>
 </html> 
